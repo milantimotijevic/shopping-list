@@ -8,12 +8,12 @@
     "dist": "electron-builder"
   },
   "build": {
-    "appId": "com.omglol.haha",
-    "productName": "Dumb Thingy",
-    "target": "NSIS",
-    "nsis": {
-      "allowToChangeInstallationDirectory": true,
-      "oneClick": false
+    "appId": "com.shopping.list",
+    "productName": "Shopping List",
+    "win": {
+      "target": [
+        "msi"
+      ]
     }
   },
   "author": "Milan",
